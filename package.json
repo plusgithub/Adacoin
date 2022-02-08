@@ -1,0 +1,21 @@
+{
+  "name": "adacoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --watchAll --config ./jest.config.json",
+    "dev": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "Archie Ferguson",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^17.3.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "jest": "^27.4.7",
+    "uuid": "^8.3.2"
+  }
+}
